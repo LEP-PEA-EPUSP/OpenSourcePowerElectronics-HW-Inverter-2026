@@ -1,0 +1,95 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'placa-VNM-02-11-20.pdsprj'.
+CADCAM generated at 14:50:25 on terça-feira, 15 de dezembro de 2020.
+
+File List
+---------
+Top Copper              : Gerber_inversora - CADCAM Top Copper.GBR
+Bottom Copper           : Gerber_inversora - CADCAM Bottom Copper.GBR
+Top Silk Screen         : Gerber_inversora - CADCAM Top Silk Screen.GBR
+Top Solder Resist       : Gerber_inversora - CADCAM Top Solder Resist.GBR
+Bottom Solder Resist    : Gerber_inversora - CADCAM Bottom Solder Resist.GBR
+Mechanical 1            : Gerber_inversora - CADCAM Mechanical 1.GBR
+Top Assembly            : Gerber_inversora - CADCAM Top Assembly.GBR
+Drill                   : Gerber_inversora - CADCAM Drill.DRL
+Netlist                 : Gerber_inversora - CADCAM Netlist.IPC
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer, I=Index
+
+D10	CIRCLE  D=40th                                                            DRAW 
+D11	CIRCLE  D=80th                                                            DRAW 
+D12	CIRCLE  D=90th                                                            DRAW 
+D13	CIRCLE  D=50th                                                            DRAW 
+D14	CIRCLE  D=70th                                                            DRAW 
+D15	CIRCLE  D=100th                                                           DRAW 
+D16	CIRCLE  D=70th                                                            FLASH
+D17	CIRCLE  D=10th                                                            DRAW 
+D18	CIRCLE  D=80th                                                            FLASH
+D19	PPAD    W=120th               H=100th               I=0                   FLASH
+D70	CIRCLE  D=120th                                                           FLASH
+D71	SQUARE  S=85th                                                            FLASH
+D20	CIRCLE  D=100th                                                           FLASH
+D21	PPAD    W=85th                H=100th               I=1                   FLASH
+D22	CIRCLE  D=90th                                                            FLASH
+D23	SQUARE  S=70th                                                            FLASH
+D24	CIRCLE  D=433.071th                                                       FLASH
+D25	CIRCLE  D=85th                                                            FLASH
+D26	PPAD    W=80th                H=80th                I=2                   FLASH
+D27	CIRCLE  D=8th                                                             DRAW 
+D28	CIRCLE  D=60th                                                            DRAW 
+D29	CIRCLE  D=20th                                                            DRAW 
+D72	CIRCLE  D=1.25th                                                          DRAW 
+D73	CIRCLE  D=6th                                                             DRAW 
+D30	PPAD    W=130th               H=110th               I=3                   FLASH
+D31	CIRCLE  D=150th                                                           FLASH
+D32	PPAD    W=105th               H=105th               I=4                   FLASH
+D33	CIRCLE  D=130th                                                           FLASH
+D34	PPAD    W=95th                H=110th               I=5                   FLASH
+D35	CIRCLE  D=110th                                                           FLASH
+D36	PPAD    W=90th                H=90th                I=6                   FLASH
+D37	CIRCLE  D=443.071th                                                       FLASH
+D38	CIRCLE  D=95th                                                            FLASH
+D39	PPAD    W=90th                H=90th                I=7                   FLASH
+D40	CIRCLE  D=6.48th                                                          DRAW 
+D41	CIRCLE  D=4.2th                                                           DRAW 
+D42	CIRCLE  D=21.48th                                                         DRAW 
+D43	CIRCLE  D=13.6th                                                          DRAW 
+D44	CIRCLE  D=5.825th                                                         DRAW 
+D45	CIRCLE  D=10.2th                                                          DRAW 
+D46	CIRCLE  D=1.8th                                                           DRAW 
+D47	CIRCLE  D=1.35th                                                          DRAW 
+D48	CIRCLE  D=1.543th                                                         DRAW 
+D49	CIRCLE  D=1.2th                                                           DRAW 
+D50	CIRCLE  D=7.7th                                                           DRAW 
+D51	CIRCLE  D=21.264th                                                        DRAW 
+D52	CIRCLE  D=21th                                                            DRAW 
+D53	CIRCLE  D=6.78th                                                          DRAW 
+D54	CIRCLE  D=5.2th                                                           DRAW 
+D55	CIRCLE  D=2.16th                                                          DRAW 
+D56	CIRCLE  D=2.7th                                                           DRAW 
+D57	CIRCLE  D=3.6th                                                           DRAW 
+D58	CIRCLE  D=4.6th                                                           DRAW 
+D59	CIRCLE  D=5th                                                             DRAW 
+D60	CIRCLE  D=2.5th                                                           DRAW 
+
+NC Drill Setup
+--------------
+Format: Excellon, ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	30th (0-15) Plated
+T02	50th (0-15) Plated
+T03	45th (0-15) Plated
+T04	263.8th (0-15) Plated
+T05	137.8th (0-15) Unplated
+T06	40th (0-15) Plated
+
+
+[END OF FILE]
